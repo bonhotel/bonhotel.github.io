@@ -40,8 +40,8 @@ At Bon Hotel, we create an atmosphere of warm European hospitality where every g
         send: "Send",
         
         // WhatsApp buttons
-        whatsappBook: "WhatsApp Contact",
-        whatsappContact: "Contact WhatsApp"
+        whatsappBook: "WhatsApp",
+        whatsappContact: "WhatsApp"
     },
     ru: {
         // Navigation
@@ -83,8 +83,8 @@ At Bon Hotel, we create an atmosphere of warm European hospitality where every g
         send: "Отправить",
         
         // WhatsApp buttons
-        whatsappBook: "Связаться в WhatsApp",
-        whatsappContact: "Связаться в WhatsApp"
+        whatsappBook: "WhatsApp",
+        whatsappContact: "WhatsApp"
     }
 };
 
