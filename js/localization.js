@@ -28,6 +28,8 @@ At Bon Hotel, we create an atmosphere of warm European hospitality where every g
         ourRoomDesc: "Experience luxury and comfort in our thoughtfully designed rooms",
         bedRoom: "Bed Room",
         roomDesc: "Each room is carefully designed to provide maximum comfort and elegance for our guests",
+        standardRoom: "Standard Room (Twin/Double)",
+        standardRoomDesc: "Cozy and functional room, perfect for individual travelers and couples. The room features two comfortable single beds (100×200 cm) that can be combined into one spacious double bed upon request.",
         
         galleryTitle: "Gallery",
         blogTitle: "Blog",
@@ -76,6 +78,8 @@ At Bon Hotel, we create an atmosphere of warm European hospitality where every g
         ourRoomDesc: "Почувствуйте роскошь и комфорт в наших тщательно продуманных номерах",
         bedRoom: "Спальня",
         roomDesc: "Каждый номер тщательно спроектирован для обеспечения максимального комфорта и элегантности для наших гостей",
+        standardRoom: "Стандартный номер (Twin/Double)",
+        standardRoomDesc: "Уютный и функциональный номер, идеально подходящий как для индивидуальных путешественников, так и для пар. В номере установлены две комфортабельные односпальные кровати размером 100×200 см, которые по желанию могут быть объединены в одну просторную двуспальную кровать.",
         
         galleryTitle: "Галерея",
         blogTitle: "Блог",
@@ -132,6 +136,8 @@ function applyTranslations(lang) {
     $('[data-translate="ourRoomDesc"]').text(t.ourRoomDesc);
     $('[data-translate="bedRoom"]').text(t.bedRoom);
     $('[data-translate="roomDesc"]').text(t.roomDesc);
+    $('[data-translate="standardRoom"]').text(t.standardRoom);
+    $('[data-translate="standardRoomDesc"]').text(t.standardRoomDesc);
     $('[data-translate="galleryTitle"]').text(t.galleryTitle);
     $('[data-translate="blogTitle"]').text(t.blogTitle);
     
