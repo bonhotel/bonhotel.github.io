@@ -104,13 +104,24 @@ At Bon Hotel, we create an atmosphere of warm European hospitality where every g
 
 // Detect user's preferred language
 function detectLanguage() {
+    // First check if language is already stored
+    const storedLang = localStorage.getItem('bonhotel_lang');
+    if (storedLang && (storedLang === 'en' || storedLang === 'ru')) {
+        return storedLang;
+    }
+    
+    // Check browser language
     const userLang = navigator.language || navigator.userLanguage;
     const langCode = userLang.toLowerCase();
+    
+    console.log('Browser language detected:', userLang);
     
     // Check if the language is Russian, Kyrgyz, Kazakh, Ukrainian, or Uzbek
     if (langCode.includes('ru') || langCode.includes('ky') || langCode.includes('kk') || langCode.includes('uk') || langCode.includes('uz')) {
         return 'ru';
     }
+    
+    // Default to English
     return 'en';
 }
 
@@ -169,14 +180,38 @@ function applyTranslations(lang) {
 // Initialize localization
 $(document).ready(function() {
     const currentLang = detectLanguage();
+    console.log('Detected language:', currentLang);
+    console.log('User language:', navigator.language);
+    console.log('Translations available:', Object.keys(translations));
+    
     applyTranslations(currentLang);
     
     // Store current language
     localStorage.setItem('bonhotel_lang', currentLang);
+    
+    // Set active language button
+    updateActiveLanguageButton(currentLang);
+    
+    // Debug: Check if translations are applied
+    setTimeout(() => {
+        console.log('Sample translation check - About Us title:', $('[data-translate="aboutUsTitle"]').text());
+        console.log('Sample translation check - Standard Room:', $('[data-translate="standardRoom"]').text());
+    }, 1000);
 });
 
 // Function to manually switch language (for future language switcher)
 function switchLanguage(lang) {
+    console.log('Switching to language:', lang);
     applyTranslations(lang);
     localStorage.setItem('bonhotel_lang', lang);
+    
+    // Update active button
+    $('.lang-btn').removeClass('active');
+    $(`.lang-btn:contains('${lang.toUpperCase()}')`).addClass('active');
+}
+
+// Update active language button
+function updateActiveLanguageButton(lang) {
+    $('.lang-btn').removeClass('active');
+    $(`.lang-btn:contains('${lang.toUpperCase()}')`).addClass('active');
 } 
