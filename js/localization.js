@@ -28,8 +28,10 @@ At Bon Hotel, we create an atmosphere of warm European hospitality where every g
         ourRoomDesc: "Experience luxury and comfort in our thoughtfully designed rooms",
         bedRoom: "Bed Room",
         roomDesc: "Each room is carefully designed to provide maximum comfort and elegance for our guests",
-        standardRoom: "Standard Room (Twin/Double)",
+        standardRoom: "Standard Room",
         standardRoomDesc: "Cozy and functional room, perfect for individual travelers and couples. The room features two comfortable single beds (100×200 cm) that can be combined into one spacious double bed upon request.",
+        juniorSuite: "Junior Suite",
+        juniorSuiteDesc: "Elegant and spacious room with one Queen size double bed (160×200 cm) — the perfect solution for individual travelers or couples who value comfort and coziness.",
         
         galleryTitle: "Gallery",
         blogTitle: "Blog",
@@ -78,8 +80,10 @@ At Bon Hotel, we create an atmosphere of warm European hospitality where every g
         ourRoomDesc: "Почувствуйте роскошь и комфорт в наших тщательно продуманных номерах",
         bedRoom: "Спальня",
         roomDesc: "Каждый номер тщательно спроектирован для обеспечения максимального комфорта и элегантности для наших гостей",
-        standardRoom: "Стандартный номер (Twin/Double)",
+        standardRoom: "Стандартный номер",
         standardRoomDesc: "Уютный и функциональный номер, идеально подходящий как для индивидуальных путешественников, так и для пар. В номере установлены две комфортабельные односпальные кровати размером 100×200 см, которые по желанию могут быть объединены в одну просторную двуспальную кровать.",
+        juniorSuite: "Полулюкс номер",
+        juniorSuiteDesc: "Элегантный и просторный номер с одной двуспальной кроватью Queen size (160×200 см) — идеальное решение для индивидуальных путешественников или пар, ценящих комфорт и уют.",
         
         galleryTitle: "Галерея",
         blogTitle: "Блог",
@@ -149,6 +153,8 @@ function applyTranslations(lang) {
     $('[data-translate="roomDesc"]').text(t.roomDesc);
     $('[data-translate="standardRoom"]').text(t.standardRoom);
     $('[data-translate="standardRoomDesc"]').text(t.standardRoomDesc);
+    $('[data-translate="juniorSuite"]').text(t.juniorSuite);
+    $('[data-translate="juniorSuiteDesc"]').text(t.juniorSuiteDesc);
     $('[data-translate="galleryTitle"]').text(t.galleryTitle);
     $('[data-translate="blogTitle"]').text(t.blogTitle);
     
