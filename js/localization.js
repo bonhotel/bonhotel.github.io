@@ -32,6 +32,8 @@ At Bon Hotel, we create an atmosphere of warm European hospitality where every g
         standardRoomDesc: "Cozy and functional room, perfect for individual travelers and couples. The room features two comfortable single beds (100×200 cm) that can be combined into one spacious double bed upon request.",
         juniorSuite: "Junior Suite",
         juniorSuiteDesc: "Elegant and spacious room with one Queen size double bed (160×200 cm) — the perfect solution for individual travelers or couples who value comfort and coziness.",
+        luxurySuite: "Luxury Suite",
+        luxurySuiteDesc: "Spacious and exquisite Luxury category room — the perfect choice for those who value enhanced comfort, style and privacy. At the center of the room is a luxurious King size double bed (180×200 cm) with premium bedding and orthopedic mattress for complete relaxation.",
         
         galleryTitle: "Gallery",
         blogTitle: "Blog",
@@ -84,6 +86,8 @@ At Bon Hotel, we create an atmosphere of warm European hospitality where every g
         standardRoomDesc: "Уютный и функциональный номер, идеально подходящий как для индивидуальных путешественников, так и для пар. В номере установлены две комфортабельные односпальные кровати размером 100×200 см, которые по желанию могут быть объединены в одну просторную двуспальную кровать.",
         juniorSuite: "Полулюкс номер",
         juniorSuiteDesc: "Элегантный и просторный номер с одной двуспальной кроватью Queen size (160×200 см) — идеальное решение для индивидуальных путешественников или пар, ценящих комфорт и уют.",
+        luxurySuite: "Люкс номер",
+        luxurySuiteDesc: "Просторный и изысканный номер категории Люкс — идеальный выбор для тех, кто ценит повышенный комфорт, стиль и уединение. В центре номера — роскошная двуспальная кровать King size (180×200 см) с премиальным постельным бельём и ортопедическим матрасом для полноценного отдыха.",
         
         galleryTitle: "Галерея",
         blogTitle: "Блог",
@@ -155,6 +159,8 @@ function applyTranslations(lang) {
     $('[data-translate="standardRoomDesc"]').text(t.standardRoomDesc);
     $('[data-translate="juniorSuite"]').text(t.juniorSuite);
     $('[data-translate="juniorSuiteDesc"]').text(t.juniorSuiteDesc);
+    $('[data-translate="luxurySuite"]').text(t.luxurySuite);
+    $('[data-translate="luxurySuiteDesc"]').text(t.luxurySuiteDesc);
     $('[data-translate="galleryTitle"]').text(t.galleryTitle);
     $('[data-translate="blogTitle"]').text(t.blogTitle);
     
