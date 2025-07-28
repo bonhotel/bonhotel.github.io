@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://bonhotel.kg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bonhotel.kg/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://bonhotel.kg/"/>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- About Page -->
+  <url>
+    <loc>https://bonhotel.kg/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bonhotel.kg/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://bonhotel.kg/about.html"/>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Rooms Page -->
+  <url>
+    <loc>https://bonhotel.kg/room.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bonhotel.kg/room.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://bonhotel.kg/room.html"/>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Gallery Page -->
+  <url>
+    <loc>https://bonhotel.kg/gallery.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bonhotel.kg/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://bonhotel.kg/gallery.html"/>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Blog Page -->
+  <url>
+    <loc>https://bonhotel.kg/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bonhotel.kg/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://bonhotel.kg/blog.html"/>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Contact Page -->
+  <url>
+    <loc>https://bonhotel.kg/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bonhotel.kg/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://bonhotel.kg/contact.html"/>
+    <lastmod>2025-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset> 

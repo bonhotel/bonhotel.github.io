@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://bonhotel.kg/sitemap.xml
+
+# Disallow unnecessary files
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /.git/
+Disallow: /deploy.sh
+Disallow: /README.md
+
+# Allow important resources
+Allow: /images/
+Allow: /css/style.css
+Allow: /js/localization.js 

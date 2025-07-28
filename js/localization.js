@@ -46,9 +46,9 @@ At Bon Hotel, we create an atmosphere of warm European hospitality where every g
         send: "Send",
         
         // Location content
-        exceptionalLocation: "Exceptional Location in the Heart of Bishkek",
-        locationDescription: "Every Bon Hotel is a destination in itself. Due to the ideal location of our hotel at 14 Yunusaliev Avenue, in the vibrant center of Bishkek, guests enjoy easy access to the city's most prestigious attractions. Within walking distance, you'll find Ala-Too Square, the State Historical Museum, and the bustling Chuy Avenue with its array of restaurants, cafes, and shopping centers. The hotel is perfectly positioned just 30 minutes from Manas International Airport, making it ideal for both leisure and business travelers. Nearby public transportation connects you effortlessly to Osh Bazaar, Panfilov Park, and the scenic Ala-Archa National Park. Whether you're exploring Kyrgyzstan's rich culture or conducting business in the capital, Bon Hotel offers the perfect blend of European comfort and Central Asian hospitality.",
-        hotelAddress: "14 Yunusaliev Avenue, Bishkek, Kyrgyzstan",
+        exceptionalLocation: "Prime Location in Bishkek City Center - Near Ala-Too Square",
+        locationDescription: "Bon Hotel Bishkek offers an exceptional location in the heart of Kyrgyzstan's capital. Situated at 14 Yunusaliev Avenue, our luxury hotel provides easy access to Bishkek's top attractions including Ala-Too Square, State Historical Museum, and Chuy Avenue's premier shopping and dining district. Just 30 minutes from Manas International Airport, we're perfectly positioned for both business travelers and tourists exploring Central Asia. Our guests enjoy convenient access to Osh Bazaar, Panfilov Park, and the scenic Ala-Archa National Park. Whether you're visiting Bishkek for business, leisure, or exploring Kyrgyzstan's rich cultural heritage, Bon Hotel combines European luxury with authentic Central Asian hospitality.",
+        hotelAddress: "14 Yunusaliev Avenue, Bishkek 720000, Kyrgyzstan",
         
         // WhatsApp buttons
         whatsappBook: "WhatsApp",
@@ -100,9 +100,9 @@ At Bon Hotel, we create an atmosphere of warm European hospitality where every g
         send: "Отправить",
         
         // Location content
-        exceptionalLocation: "Исключительное расположение в сердце Бишкека",
-        locationDescription: "Каждый Bon Hotel — это направление само по себе. Благодаря идеальному расположению нашего отеля по адресу проспект Юнусалиева 14, в самом центре Бишкека, гости имеют легкий доступ к самым престижным достопримечательностям города. В пешей доступности находятся площадь Ала-Тоо, Государственный исторический музей и оживленный проспект Чуй с множеством ресторанов, кафе и торговых центров. Отель идеально расположен всего в 30 минутах от международного аэропорта Манас, что делает его идеальным как для отдыха, так и для деловых поездок. Близлежащий общественный транспорт легко доставит вас к Ошскому базару, парку Панфилова и живописному национальному парку Ала-Арча. Независимо от того, изучаете ли вы богатую культуру Кыргызстана или ведете бизнес в столице, Bon Hotel предлагает идеальное сочетание европейского комфорта и центральноазиатского гостеприимства.",
-        hotelAddress: "проспект Юнусалиева 14, Бишкек, Кыргызстан",
+        exceptionalLocation: "Превосходное расположение в центре Бишкека - рядом с площадью Ала-Тоо",
+        locationDescription: "Отель Бон Бишкек предлагает исключительное расположение в самом сердце столицы Кыргызстана. Расположенный по адресу проспект Юнусалиева 14, наш роскошный отель обеспечивает легкий доступ к главным достопримечательностям Бишкека, включая площадь Ала-Тоо, Государственный исторический музей и престижный торгово-ресторанный район проспекта Чуй. Всего в 30 минутах от международного аэропорта Манас, мы идеально расположены как для деловых путешественников, так и для туристов, изучающих Центральную Азию. Наши гости наслаждаются удобным доступом к Ошскому базару, парку Панфилова и живописному национальному парку Ала-Арча. Независимо от того, приезжаете ли вы в Бишкек по делам, для отдыха или изучения богатого культурного наследия Кыргызстана, отель Бон сочетает европейскую роскошь с подлинным центральноазиатским гостеприимством.",
+        hotelAddress: "проспект Юнусалиева 14, Бишкек 720000, Кыргызстан",
         
         // WhatsApp buttons
         whatsappBook: "WhatsApp",
